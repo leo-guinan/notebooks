@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "twitterlab"
+version = "0.1.0"
+description = ""
+authors = ["leo-guinan <leo@copy.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^3.2.9"
+tweepy = "^4.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
